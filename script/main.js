@@ -7,12 +7,13 @@ window.addEventListener('load', () => {
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
         confirmButtonText: 'Yes',
-        cancelButtonText: 'No',
+        cancelButtonText: 'Канешно хочеш',
     }).then((result) => {
         if (result.isConfirmed) {
             document.querySelector('.song').play();
             animationTimeline();
         } else {
+            document.querySelector(".song").play();
             animationTimeline();
         }
     });
