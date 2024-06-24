@@ -44,7 +44,7 @@ body {
   left: 0;
   position: absolute;
   right: 0;
-  top: 20vh;
+  top: 5vh;
 }
 
 .one {
@@ -57,7 +57,7 @@ body {
 }
 
 .three {
-  font-size: 3rem;
+  font-size: 45px;
 }
 
 .four .text-box {
@@ -133,7 +133,7 @@ body {
   left: 41.5%;
   position: absolute;
   /* transform: scale(0.1); */
-  top: -35%;
+  top: -33%;
   width: 80px;
 }
 
@@ -268,7 +268,7 @@ body {
 
 @media screen and (max-height: 850px) and (max-width: 450px) {
   .six .hat {
-    left: 32%;
+    left: 45%;
   }
 }
 
@@ -291,7 +291,7 @@ body {
   }
 
   .idea-6 span {
-    font-size: 10rem;
+    font-size: 90px;
   }
 
   .six .hat {
