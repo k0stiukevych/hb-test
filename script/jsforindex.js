@@ -11,8 +11,11 @@ document.addEventListener("DOMContentLoaded", () => {
   setTimeout(() => {
     spanSmile.classList.add("rotated");
   }, 4000);
+});
 
-  setTimeout(() => {
-    firstTextLink.classList.add("visible");
-  }, 40000);
+document.addEventListener("DOMContentLoaded", function () {
+  var video = document.getElementById("bgVideo");
+  video.play().catch(function () {
+    // Handle autoplay error (e.g., user gesture required)
+  });
 });

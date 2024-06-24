@@ -37,7 +37,7 @@ a:hover {
     font-size: 60px;
 }
 
-.to-end, .first-text {
+.to-end {
     padding: 10px;
     background-color: #fcfcfc;
     border-radius: 10px;
@@ -57,4 +57,19 @@ a:hover {
 .rotated {
     transform: rotate(90deg);
     color: red;
+}
+
+#bgAudio {
+    width: 200px;
+    /* Ширина плеєра */
+    height: 40px;
+    /* Висота плеєра */
+    background-color: #f0f0f0;
+    /* Колір фону плеєра */
+    border: 1px solid #ccc;
+    /* Обрамлення плеєра */
+    border-radius: 5px;
+    /* Закруглення кутів плеєра */
+    padding: 5px;
+    /* Відступи всередині плеєра */
 }

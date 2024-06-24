@@ -17,13 +17,23 @@
 </head>
 
 <body>
+  <audio id="bgAudio" autoplay loop>
+    <source src="./music/catsong.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
   <div class="container">
     <p class="to-end text second-text">Дослухай до кінця!!!</p>
     <span class="span-smile text text-smile">:)</span>
   </div>
-  <video width="320" controls autoplay>
+  <!-- <video width="320" controls autoplay>
     <source src="./video/cathb.mp4" type="video/mp4">
     Ваш браузер не підтримує елемент <code>video</code>.
+  </video> -->
+
+  <video autoplay muted loop id="bgVideo" width="320">
+    <source src="./video/cathb.mp4" type="video/mp4">
+    Your browser does not support the video tag.
   </video>
 
   <div class="container">
