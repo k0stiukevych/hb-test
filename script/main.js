@@ -13,7 +13,7 @@ window.addEventListener('load', () => {
             document.querySelector('.song').play();
             animationTimeline();
         } else {
-            document.querySelector(".song").play();
+            document.querySelector('.song').play();
             animationTimeline();
         }
     });
@@ -23,12 +23,7 @@ window.addEventListener('load', () => {
 // animation timeline
 const animationTimeline = () => {
     // split chars that needs to be animated individually
-    const textBoxChars = document.getElementsByClassName("hbd-chatbox")[0];
     const hbd = document.getElementsByClassName("wish-hbd")[0];
-
-    textBoxChars.innerHTML = `<span>${textBoxChars.innerHTML
-        .split("")
-        .join("</span><span>")}</span>`;
 
     hbd.innerHTML = `<span>${hbd.innerHTML
         .split("")
@@ -87,33 +82,7 @@ const animationTimeline = () => {
             y: 10
         },
     "+=3")
-    .from(".four", 0.7, {
-        scale: 0.2,
-        opacity: 0,
-    })
-    .from(".fake-btn", 0.3, {
-        scale: 0.2,
-        opacity: 0,
-    })
-    .staggerTo(
-        ".hbd-chatbox span",
-        1.5, {
-            visibility: "visible",
-        },
-        0.05
-    )
-    .to(".fake-btn", 0.1, {
-        backgroundColor: "rgb(127, 206, 248)",
-    },
-    "+=4")
-    .to(
-        ".four",
-        0.5, {
-            scale: 0.2,
-            opacity: 0,
-            y: -150
-        },
-    "+=1")
+    
     .from(".idea-1", 0.7, ideaTextTrans)
     .to(".idea-1", 0.7, ideaTextTransLeave, "+=2.5")
     .from(".idea-2", 0.7, ideaTextTrans)
