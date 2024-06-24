@@ -10,12 +10,5 @@ document.addEventListener("DOMContentLoaded", () => {
   // Повернути вміст span на 90 градусів через секунду після появи .to-end і змінити колір
   setTimeout(() => {
     spanSmile.classList.add("rotated");
-  }, 4000);
-});
-
-document.addEventListener("DOMContentLoaded", function () {
-  var video = document.getElementById("bgVideo");
-  video.play().catch(function () {
-    // Handle autoplay error (e.g., user gesture required)
-  });
+  }, 2000);
 });

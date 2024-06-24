@@ -27,6 +27,18 @@ a:hover {
     text-align: center;
 }
 
+.cont {
+    display: flex;
+    justify-content: center;
+    background-color: #fcfcfc;
+    width: 100%;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
 .text {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
@@ -34,7 +46,12 @@ a:hover {
 }
 
 .text-smile {
+    margin-top: 10px;
     font-size: 60px;
+}
+
+.first-text {
+    padding: 10px;
 }
 
 .to-end {
@@ -48,6 +65,7 @@ a:hover {
 .span-smile {
     display: inline-block;
     transition: transform 0.5s, color 0.5s;
+    color: #fcfcfc;
 }
 
 .visible {
@@ -56,20 +74,5 @@ a:hover {
 
 .rotated {
     transform: rotate(90deg);
-    color: red;
-}
-
-#bgAudio {
-    width: 200px;
-    /* Ширина плеєра */
-    height: 40px;
-    /* Висота плеєра */
-    background-color: #f0f0f0;
-    /* Колір фону плеєра */
-    border: 1px solid #ccc;
-    /* Обрамлення плеєра */
-    border-radius: 5px;
-    /* Закруглення кутів плеєра */
-    padding: 5px;
-    /* Відступи всередині плеєра */
+    color: gold;
 }

@@ -11,6 +11,18 @@ body {
   visibility: hidden;
 }
 
+.back-btn {
+  display: block;
+    background-color: #18c8ebb4;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
 .container {
   height: 100vh;
   margin: 0 auto;
